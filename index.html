@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- background animation -->
+    <div class="aurora"></div>
+
+    <div class="container">
+
+        <!-- Lyrics Section -->
+        <div class="lyrics-panel">
+            <h2>Lyrics</h2>
+            <div class="lyrics">
+                <p>Lyrics will appear here...</p>
+            </div>
+        </div>
+
+        <!-- Music Player -->
+
+        <div class="player">
+            <h1>Music Player</h1>
+            <img src="images/without_me_cover.jpg" class="cover" alt="cover">
+            <h2 class="song-title">Song Title</h2>
+            <p class="artist">Artist Name</p>
+
+            <audio id="audio"></audio>
+            <input type="range" class="progress" value="0">
+            <div class="time">
+                <span class="current-time">0:00</span>
+                <span class="duration"> 0:00</span>
+            </div>
+
+            <div class="controls">
+                <button id="shuffle" title="Shuffle">
+                    <i class="ri-shuffle-line"></i>
+                </button>
+
+                <button id="prev" title="Previous">
+                    <i class="ri-skip-back-fill"></i>
+                </button>
+
+                <button id="play" title="Play">
+                    <i class="ri-play-fill"></i>
+                </button>
+
+                <button id="next" title="Next">
+                    <i class="ri-skip-forward-fill"></i>
+                </button>
+
+                <button id="repeat" title="Repeat">
+                    <i class="ri-repeat-line"></i>
+                </button>
+            </div>
+
+            <div class="volume-box">
+                <span>🔊</span>
+                <input type="range" class="volume" min="0" max="1" step="0.1" value="1">
+            </div>
+
+        </div>
+
+
+        <!-- Playlist Section -->
+        <div class="playlist-panel">
+            <h2>Playlist</h2>
+            <div class="playlist-filters">
+                <button id="allSongsBtn" class="active-filter">
+                    <i class="ri-music-2-line"></i>
+                    All Songs
+                </button>
+
+                <button id="favoritesBtn">
+                    <i class="ri-heart-fill"></i>
+                    Favorites
+                </button>
+            </div>
+
+            <input type="text" id="search" placeholder="🔍 Search songs...">
+            <div class="no-result">
+                <div class="search-icon">🔍</div>
+                <h3>No songs found</h3>
+                <p>Try another song name.</p>
+            </div>
+            <ul class="playlist"></ul>
+        </div>
+
+    </div>
+    <!-- shuffle toast -->
+    <div class="toast" id="toast">
+        <i id="toast-icon" class="ri-information-line"></i>
+        <span id="toast-text">Message</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
