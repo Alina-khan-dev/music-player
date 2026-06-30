@@ -1,4 +1,4 @@
-# Music Player
+# 🎵 Music Player
 
 A modern and interactive Music Player built with **HTML**, **CSS**, and **JavaScript**.
 
@@ -8,29 +8,29 @@ From playing songs to managing favorites, searching music instantly, reading lyr
 
 ## 🌐 Live Demo: https://alina-khan-dev.github.io/music-player/
 
-## Features
+## ✨ Features
 
-*  Play, Pause, Previous & Next controls
-*  Interactive playlist
-*  Real-time song search
-*  Add and remove favorite songs
-*  Favorites saved using Local Storage
-*  Filter to view only favorite songs
-*  Lyrics panel
-*  Shuffle mode
-*  Repeat mode
-*  Toast notifications
-*  Interactive progress bar
-*  Volume control
-*  Responsive and clean user interface
+* 🎵 Play, Pause, Previous & Next controls
+* 📂 Interactive playlist
+* 🔍 Real-time song search
+* ❤️ Add and remove favorite songs
+* 💾 Favorites saved using Local Storage
+* ❤️ Filter to view only favorite songs
+* 🎤 Lyrics panel
+* 🔀 Shuffle mode
+* 🔁 Repeat mode
+* 🔔 Toast notifications
+* ⏱️ Interactive progress bar
+* 🔊 Volume control
+* 📱 Responsive and clean user interface
 
-##  Technologies Used
+## 🛠️ Technologies Used
 
 * HTML5
 * CSS3
 * JavaScript (ES6)
 
-##  Getting Started
+## 🚀 Getting Started
 
 Follow these steps to run the project on your computer:
 
@@ -39,7 +39,7 @@ Follow these steps to run the project on your computer:
 3. Open `index.html` in your browser.
 4. Enjoy your music!
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 Music Player/
@@ -51,7 +51,7 @@ Music Player/
 └── songs/
 ```
 
-## What I Learned
+## 📚 What I Learned
 
 Working on this project helped me strengthen my understanding of:
 
@@ -66,7 +66,7 @@ Working on this project helped me strengthen my understanding of:
 
 More importantly, it taught me that building a good project is not just about adding features—it's about making every feature work smoothly together.
 
-## Future Improvements
+## 🎯 Future Improvements
 
 Although the core project is complete, there are always ideas to explore in the future, such as:
 
@@ -75,7 +75,7 @@ Although the core project is complete, there are always ideas to explore in the 
 * Keyboard shortcuts
 * Playlist import/export
 
-## About Me
+## 👩‍💻 About Me
 
 Hi! I'm **Alina Khan**, a Computer Science student with a passion for web development and building practical projects that improve my skills.
 
