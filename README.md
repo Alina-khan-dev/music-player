@@ -1,12 +1,12 @@
 # Music Player
 
-![Music Player Preview](images/preview.png)
-
 A modern and interactive Music Player built with **HTML**, **CSS**, and **JavaScript**.
 
 This project started as a simple idea, but with every new feature, it became a complete learning experience. Instead of stopping after making a basic music player, I focused on improving both the functionality and the user experience.
 
 From playing songs to managing favorites, searching music instantly, reading lyrics, and saving user preferences, every feature was built step by step to practice real JavaScript concepts.
+
+## 🌐 Live Demo: https://alina-khan-dev.github.io/music-player/
 
 ## Features
 
